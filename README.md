@@ -3,10 +3,12 @@
 [![Build Status](https://api.travis-ci.org/unibet/kitchen-transport-rsync.svg)](https://travis-ci.org/unibet/kitchen-transport-rsync)
 [![Gem Version](https://badge.fury.io/rb/kitchen-transport-rsync.svg)](http://badge.fury.io/rb/kitchen-transport-rsync)
 
-This transport is based on rsync over ssh providing dramatic performance improvements.
-It will only work with if rsync is be available in the PATH on both local and remote end points.
+This transport is based on rsync over ssh providing dramatic performance
+improvements.  It will only work if rsync is available in the PATH on both
+local and remote end points.
 
-Only passwordless (using ssh key pair) communication is supported at the moment.
+Only passwordless (using SSH key pair) communication is supported at the
+moment.
 
 ## Recommended **.kitchen.yml** snippet to activate Rsync transport
 
